@@ -9,15 +9,15 @@ DivTooltjes >> listSplitter [
 	<gtExample>
 
 | listNiki listNikiSeparated |
-listNiki :=  '2983214
+listNiki :=  '3214 
 
-3677958
+7958
 
-2521555
+1555
 
-3615693
+5693
 
-3517098 ' .
+7098 ' .
 listNikiSeparated := [:c| c = ' ' ] split: listNiki .
 ^ listNikiSeparated
 ]
