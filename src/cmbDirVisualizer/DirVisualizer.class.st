@@ -325,6 +325,7 @@ DirVisualizer >> skipFiles: aFilePattern [
 
 { #category : #action }
 DirVisualizer >> visualize [
+	<gtExample>
 	"so 'visualize' can be used all the time, 
 	while the underlying visualizing method can be changed by changing: "
 	^ self branchB_6_visualize 

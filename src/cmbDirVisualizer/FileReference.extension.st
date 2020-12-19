@@ -8,6 +8,14 @@ FileReference >> ageOfFile [
 ]
 
 { #category : #'*cmbDirVisualizer' }
+FileReference >> ageOfFileAsString [
+	| when howLong |
+	when := self fileTimestampForVisualizer asDate asString .
+	howLong := self ageOfFileInWholeDays asString .
+	^ '', howLong ,'d - ', when, ' - '
+]
+
+{ #category : #'*cmbDirVisualizer' }
 FileReference >> ageOfFileInWholeDays [
 	^ self ageOfFile asDays truncated
 ]
