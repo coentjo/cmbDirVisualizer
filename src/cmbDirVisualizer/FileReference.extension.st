@@ -26,6 +26,11 @@ FileReference >> cleanUpPortfolio [
 ]
 
 { #category : #'*cmbDirVisualizer' }
+FileReference >> dirVisualizerTime [
+	^ self modificationTime 
+]
+
+{ #category : #'*cmbDirVisualizer' }
 FileReference >> fileTimestampForVisualizer [
 	^ self isDirectory 
 		ifTrue:  [ self dirVisualizerTime ]
