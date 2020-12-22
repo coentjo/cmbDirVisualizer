@@ -11,6 +11,7 @@ A zip contains a 'readme.txt' and subdirectories containing (by default) C#-proj
 + Going against the clock the colors turn dark when the last modification is older.
 + Clicking on a source file will show the contents of that file.
 
+It helps me get a quick insight in a zip file containing projects created by my students.
 
 Created with
 + [Pharo](https://pharo.org/)
@@ -22,4 +23,4 @@ at
 [the Glamorous Toolkit](https://gtoolkit.com/)
 to enhance the experience...
 
-Please let me know if you're interested! 
+Please let me know if you're interested!
