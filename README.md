@@ -17,10 +17,15 @@ Created with
 + [Pharo](https://pharo.org/)
 + [Moose](http://moosetechnology.org/)
 
+Created a few little videos about it, which (for now) can be viewed
+[here](https://www.dropbox.com/sh/z9vz5v3bh33gmlf/AAA0FO5K2jcvjZU0c2VM6Onha?dl=0), where you can also download the working tool.  
+
+
 Now I'm living my
 [Glamorous Adventures](https://github.com/coentjo/GlamorousAdventures)
 at
 [the Glamorous Toolkit](https://gtoolkit.com/)
 to enhance the experience...
+
 
 Please let me know if you're interested!
