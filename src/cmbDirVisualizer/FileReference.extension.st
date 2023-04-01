@@ -4,7 +4,7 @@ Extension { #name : #FileReference }
 FileReference >> ageOfFile [
 	^ (Timespan
 		starting: self fileTimestampForVisualizer 
-		ending: DateAndTime now)asDuration )
+		ending: DateAndTime now)asDuration 
 ]
 
 { #category : #'*cmbDirVisualizer' }
